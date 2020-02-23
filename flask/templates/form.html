@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ZRI App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/JS_style.css') }}">
+  </head>
+  <body>
+    <h1>ZRI Predictions by ZIP</h1><br>
+  <form name=zip_form method=POST action="{{ url_for('handle_data') }}">
+    Please input a proper 5 digit US zipcode:
+    <br><br><br>
+    <input type="text" placeholder="ZIPCODE" name="zip" pattern="^[0-9]{5}$" required>
+    <input type="submit">
+  </form>
+
+  </body>
+
+</html>

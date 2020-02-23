@@ -1,0 +1,57 @@
+h1 {
+	text-align: center;
+	font-family: "Arial";
+	font-size:50px;
+	color: steelblue;
+}
+
+body {
+	background-color: #e8f3f8;
+	font-family: "Arial";
+	color: steelblue;
+	text-align: center;
+}
+
+form {
+	margin: 20px auto;
+	width: 320px;
+	font-family: inherit;
+	color: steelblue;
+}
+
+input {
+	padding: 10px;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input[type="text"] {
+	font-family: inherit;
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid steelblue;
+	background: #FAF6D9;
+}
+
+input[type="submit"] {
+	font-family: inherit;
+	width: 344px;
+	height: 45px;
+	border: none;
+	background: steelblue;
+	color: white;
+}
+
+input:focus{
+	background: white;
+}
+
+input[type="submit"]:focus {
+	font-family: inherit;
+	width: 344px;
+	height: 45px;
+	border: solid steelblue;
+	background: white;
+	color: steelblue;
+}
